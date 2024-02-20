@@ -16,3 +16,15 @@ body{
     width: 80%;
     margin: 10% auto;
 }
+.dropdown-menu {
+    padding: 0; /* 清除下拉菜单的内边距 */
+    width: 200px;
+  }
+  .dropdown-item {
+    padding: 0.5rem 1.5rem; /* 调整列表项的内边距 */
+    width: 10%; 
+    display: inline;
+  }
+  .dropdown-item input[type="checkbox"] {
+    margin-right: 0.5rem; /* 调整复选框与文本之间的间距 */
+  }

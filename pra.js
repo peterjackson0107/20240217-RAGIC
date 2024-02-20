@@ -8,8 +8,12 @@ document.querySelectorAll('.dropdown-item').forEach(item => {
 // 更新已選擇的選項
 function updateSelection() {
   const selectedOptions = Array.from(document.querySelectorAll('.dropdown-item:checked')).map(item => item.parentNode.textContent.trim());
-  const selectedOptionsDiv = document.getElementById('selectedOptions');
-  console.log("已選擇的選項:", selectedOptions);
-  selectedOptionsDiv.innerText = "你選的選項是：" + selectedOptions.join(', '); // 將所選擇的選項以逗號分隔的形式顯示
+  const button = document.querySelector('.dropdown-toggle.btn');
+  
+  if (selectedOptions.length === 0) {
+    button.innerText = '請選擇';
+  } else {
+    button.innerText = selectedOptions.join(', ');
+  }
+  console.log(selectedOptions);
 }
-
