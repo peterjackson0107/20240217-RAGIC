@@ -16,8 +16,11 @@
 - [x] 可以多選的下拉式選單
 
 ## 實際畫面 (画面)
+1.
 ![image](https://github.com/peterjackson0107/20240217-ragicTest/assets/151004314/ee9c10be-ae94-4324-9a41-218fdee9a33d)
 
+2.
 ![image](https://github.com/peterjackson0107/20240217-ragicTest/assets/151004314/b6bffaf4-046a-4cdb-b5c9-46a79482da30)
 
+3.
 ![image](https://github.com/peterjackson0107/20240217-ragicTest/assets/151004314/3b2bf753-5cac-4d35-8cb3-cc15c4f67f5f)
